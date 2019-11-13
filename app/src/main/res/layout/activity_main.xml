@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/btnPagamentos"
+        android:id="@+id/btnFinanceiro"
 
         android:layout_width="250dp"
         android:layout_height="71dp"
@@ -20,7 +20,7 @@
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Pagamentos"
-        android:textColor="#FF0FAF"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         android:typeface="sans"
@@ -43,7 +43,7 @@
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Clientes"
-        android:textColor="#FF0FAF"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         android:typeface="sans"
@@ -67,7 +67,7 @@
         android:shadowRadius="5"
         android:text="Produtos"
         android:textAllCaps="true"
-        android:textColor="#FF0FAF"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         android:typeface="sans"

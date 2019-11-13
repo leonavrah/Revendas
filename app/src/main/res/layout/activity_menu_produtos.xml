@@ -7,4 +7,52 @@
     android:background="@drawable/revendasss"
     tools:context=".MenuProdutos">
 
+    <Button
+        android:id="@+id/angry_btn7"
+
+        android:layout_width="149dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonshape"
+        android:drawableRight="@drawable/buttonshape"
+        android:foreground="@drawable/ic_produto"
+        android:shadowColor="#FF59E9"
+        android:shadowDx="10"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text=""
+        android:textColor="#FF0FAF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="149dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonshape"
+        android:drawableRight="@drawable/ic_lupaaa"
+        android:foreground="@drawable/ic_lupaaa"
+        android:shadowColor="#FF59E9"
+        android:shadowDx="10"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text=""
+        android:textColor="#FF0FAF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
