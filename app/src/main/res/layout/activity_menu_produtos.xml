@@ -8,12 +8,16 @@
     tools:context=".MenuProdutos">
 
     <Button
-        android:id="@+id/angry_btn7"
+        android:id="@+id/angry_btn"
 
         android:layout_width="149dp"
         android:layout_height="100dp"
 
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/buttonshape"
         android:drawableRight="@drawable/buttonshape"
@@ -28,19 +32,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/angry_btn"
-        app:layout_constraintVertical_bias="0.277" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/angry_btn7"
 
         android:layout_width="149dp"
         android:layout_height="100dp"
-        android:layout_marginTop="8dp"
 
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="180dp"
         android:background="@drawable/buttonshape"
-        android:drawableRight="@drawable/ic_lupaaa"
+        android:drawableRight="@drawable/buttonshape"
         android:foreground="@drawable/ic_lupaaa"
         android:shadowColor="#FF59E9"
         android:shadowDx="10"
@@ -52,7 +60,49 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Incluir Produtos"
+        android:textColor="#020202"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/baloo_chettan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Consultar Produtos"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/baloo_chettan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn7"
+        app:layout_constraintVertical_bias="0.304" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
